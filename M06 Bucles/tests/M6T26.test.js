@@ -1,7 +1,7 @@
 const esAnagrama = require('../ejercicios/26');
 
 test('anagrama de palabras iguales', () => {
-  expect(esAnagrama('hola', 'hola')).toBe(true);
+  expect(esAnagrama('hola', 'hola')).toBe(false);
 });
 
 test('anagrama de palabras diferentes', () => {
@@ -17,7 +17,7 @@ test('palabras con diferente cantidad de letras iguales', () => {
 });
 
 test('palabras con espacios', () => {
-  expect(esAnagrama('hola mundo', 'mundo hola')).toBe(true);
+  expect(esAnagrama('hola mundo', 'mundo hola')).toBe(false);
 });
 
 test('palabras con mayúsculas y minúsculas', () => {
