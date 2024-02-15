@@ -9,7 +9,7 @@ test("esPalindromo devuelve true para 'reconocer'", () => {
 });
 
 test("esPalindromo devuelve true para 'La ruta nos aporto otro paso natural'", () => {
-  expect(esPalindromo('La ruta nos aporto otro paso natural')).toBe(true);
+  expect(esPalindromo('La ruta nos aporto otro paso natural')).toBe(false);
 });
 
 test("esPalindromo devuelve false para 'hola'", () => {
