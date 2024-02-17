@@ -12,6 +12,6 @@ function obtenerElementoAleatorio(array) {
   
 return array[indice];
  }
-obtenerElementoAleatorio([1]);obtenerElementoAleatorio([4,3]);obtenerElementoAleatorio([1]);
+obtenerElementoAleatorio([]);obtenerElementoAleatorio([1, 2, 3, 4, 5]);obtenerElementoAleatorio([1]);
 
 module.exports = obtenerElementoAleatorio;
