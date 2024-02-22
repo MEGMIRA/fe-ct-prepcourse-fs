@@ -5,6 +5,16 @@ function breakStatement(num) {
   // la ejecución y retornar el string: "Se interrumpió la ejecución".
   // PISTA: Utiliza el statement 'break'.
   // Tu código:
-}
+  let max=num*10;
+  let i=0;
+  let arreglo=[];
+while (i<max){
+num=num+2;
+arreglo.push(num);
+i++;
 
+}
+console.log(arreglo);return arreglo;
+}
+breakStatement(50);breakStatement(-4)
 module.exports = breakStatement;
