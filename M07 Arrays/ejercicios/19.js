@@ -5,6 +5,18 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+  let aumento=num;
+  let arreglo=[];
+let max=num*10;
+let i=1;
+while (i<=max) {
+  aumento=aumento+2;
+  arreglo.push(aumento);
+  i++
+  if (i===5) {
+    continue ;
+  }
+};console.log(arreglo);return arreglo;
 }
-
+continueStatement(2);continueStatement(0);
 module.exports = continueStatement;
